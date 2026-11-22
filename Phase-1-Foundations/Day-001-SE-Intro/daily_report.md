@@ -6,10 +6,15 @@
 
 - [x] Trace of day1.py
 
-- [x] Edge cases recorded 1. Enter nothing for name. Press Enter immediately
-      Program runs succesfully,with no errors, however it skipped the name and just wrote "Hello, ! You are routhly 21 years old" 2. Enter abc for birth year.
-      Programm crashd with Value error ; Invalid literal for int() . it didnt run. 3. Enter 2003.5 for birth year.
-      Program ran successfully, however the age outputted is a negative value. which is practically impossible.
+- [x] Edge cases recorded
+
+1. Enter nothing for name. Press Enter immediately
+   Program runs succesfully,with no errors, however it skipped the name and just wrote "Hello, ! You are routhly 21 years old"
+2. Enter abc for birth year.
+   Programm crashd with Value error ; Invalid literal for int() . it didnt run.
+3. Enter 2003.5 for birth year.
+   Program ran successfully, however the age outputted is a negative value. which is practically impossible.
+
 - [x] Engineering Thinking answers
 
 1. Why does input() return a string instead of guessing the type?
