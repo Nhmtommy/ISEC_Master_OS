@@ -3,9 +3,22 @@
 ## 1. BIG BOOK EVIDENCE
 
 - [x] Feynman Explanation: What is Software Engineering?
+
 - [x] Trace of day1.py
-- [x] Edge cases recorded
+
+- [x] Edge cases recorded 1. Enter nothing for name. Press Enter immediately
+      Program runs succesfully,with no errors, however it skipped the name and just wrote "Hello, ! You are routhly 21 years old" 2. Enter abc for birth year.
+      Programm crashd with Value error ; Invalid literal for int() . it didnt run. 3. Enter 2003.5 for birth year.
+      Program ran successfully, however the age outputted is a negative value. which is practically impossible.
 - [x] Engineering Thinking answers
+
+1. Why does input() return a string instead of guessing the type?
+   My response in book as it is Exactly: input() returns a string instead of guessing the type because string is a default type for the input() function and it helps to keep the program from crashing due to datatypes and keep it to change type at any time
+2. Why use main() and the if **name** == "**main**": guard instead of just writing code at the top of the file?
+   My response in book as it is Exactly: Beacuse **name** == "**main**": enables the py file to work as a module and as we can excecuted directly when working as amodule only, the function can be called in another program and if excecuted directly the function can be cslled drectly too. it helps to make sure tht function is not immedietly called when its working as module in another function.
+3. We hardcoded current_year = 2026. What are the trade-offs of hardcoding vs. using datetime.date.today().year?
+   My response in book as it is Exactly: since the years are variables, changing every year, using the datetime.date.today().year is helpful to keep the function, always up to date depending on present unlike writing it which might require updates every year and valunarable to errors.
+
 - [x] Design Reflection answers
 
 ## 2. HANDS-ON CODE
@@ -48,12 +61,6 @@ main()
 
 - `calculator.py` created.
 - Handles division-by-zero edge case using an `if` statement.
-
-## 5. EDGE CASE REPORT
-
-- Input: `abc` for birth year. Result: `ValueError` crash.
-- Input: `2003.5` for birth year. Result: `ValueError` crash.
-- Input: `2027` for birth year. Result: Negative age. Not handled.
 
 ## 6. SOLOLEARN EVIDENCE
 
