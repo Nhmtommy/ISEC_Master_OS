@@ -3,9 +3,9 @@
 ## 1. BIG BOOK EVIDENCE
 
 - [x] Feynman Explanation: What is Software Engineering?
-
+      in big book scan
 - [x] Trace of day1.py
-      in book .
+      in big book .
 - [x] Edge cases recorded
 
 1. Enter nothing for name. Press Enter immediately
@@ -25,6 +25,7 @@
    My response in book as it is Exactly: since the years are variables, changing every year, using the datetime.date.today().year is helpful to keep the function, always up to date depending on present unlike writing it which might require updates every year and valunarable to errors.
 
 - [x] Design Reflection answers
+      in big book.
 
 ## 2. HANDS-ON CODE
 
@@ -84,8 +85,18 @@ main()
 
 ## 6. SOLOLEARN EVIDENCE
 
-- Question Link: [Insert Link]
-- Answer: [Paste Answer]
+- Question Link: [https://www.sololearn.com/Discuss/3374099/?ref=app]
+- Answer: [
+  First, speed is an illusion.
+
+The fastest to learn is to slow down. Type every line by yourself and break the code intentionally to see how it fails.
+
+The best way to understand every line is by writing every line by yourself and also comment why it works, not what it does, on each line. You write a comment above each line.
+
+You should start with Python because it teaches you logic without messy syntax. Build small tools like calculators, to-do lists, text-based games.Stop relying on YouTube tutorials. Read official documentation.
+
+Finally, consistency is key. Code for 30 minutes every day. Don't chase different languages. Master one. Build like five projects. Then move on.
+]
 
 ## 7. DECLARATION
 
