@@ -43,6 +43,7 @@ print(f"Your grade is {grade}")
     3 lines cahanged
 
 3. Is the logic testable? Could I write a function that takes a score and returns a grade, then test it separately?
+   yes this logic is testable.
 
 - [x] SoloLearn Feynman Practice (1 Q&A answer).
 
