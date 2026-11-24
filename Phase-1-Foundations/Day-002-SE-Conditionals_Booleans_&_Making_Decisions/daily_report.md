@@ -23,8 +23,24 @@ imagine biology teacher coming into class and says,only those with marks atleast
 - [x] Design Reflection answers (3 questions).
 
 1. Could another programmer understand this code in 30 seconds?
+   yes another programmer could understand this code bacause its well comented and indented for better redability and easily understandable.
 
 2. If I needed to add a new grade category (e.g., "A+"), how many lines must change?
+
+score = int(input("Enter your score (0-100):"))
+1 if score >= 95:
+2 grade = "A+"
+3 elif score >= 90:
+grade = "A"
+elif score >= 80:
+grade = "B"
+elif score >= 70:
+grade = "C"
+else:
+grade = "F"
+print(f"Your grade is {grade}")
+
+    3 lines cahanged
 
 3. Is the logic testable? Could I write a function that takes a score and returns a grade, then test it separately?
 
