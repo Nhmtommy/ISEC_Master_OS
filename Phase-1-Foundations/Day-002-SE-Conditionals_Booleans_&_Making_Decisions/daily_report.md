@@ -4,7 +4,7 @@
 
 - [x] Feynman Explanation:
 
-imagine biology teacher coming into class and says,only those with marks atleast 80% will be awarded by the biology department, those between 50 to 79 wont get anything while those below 50 will be punished, this is exactly how conditions work, we can sort each category of the biology class individuals using conditions . if elif and else.
+imagine biology teacher coming into class and says, only those with marks atleast 80% will be awarded by the biology department, those between 50 to 79 wont get anything while those below 50 will be punished, this is exactly how conditions work, we can sort each category of the biology class individuals using conditions . if elif and else.
 
 - [x] Trace: Execution of `day2.py` with inputs (Age=20, Score=85, Temp=-5).
       In big book (big book scans day 2)
@@ -13,6 +13,7 @@ imagine biology teacher coming into class and says,only those with marks atleast
       DONE in this document
 
 - [x] Engineering Thinking answers (3 questions).
+      Answers in big book.
 
 1. Why use if/elif/else instead of three separate if statements for the grade logic? What happens if score is 95 with three separate ifs?
 
@@ -22,28 +23,27 @@ imagine biology teacher coming into class and says,only those with marks atleast
 
 - [x] Design Reflection answers (3 questions).
 
-1. Could another programmer understand this code in 30 seconds?
-   yes another programmer could understand this code bacause its well comented and indented for better redability and easily understandable.
+1.  Could another programmer understand this code in 30 seconds?
+    yes another programmer could understand this code bacause its well commented and indented for better redability and easily understandable.
 
-2. If I needed to add a new grade category (e.g., "A+"), how many lines must change?
+2.  If I needed to add a new grade category (e.g., "A+"), how many lines must change?
+    score = int(input("Enter your score (0-100):"))
+    1 if score >= 95:
+    2 grade = "A+"
+    3 elif score >= 90:
+    grade = "A"
+    elif score >= 80:
+    grade = "B"
+    elif score >= 70:
+    grade = "C"
+    else:
+    grade = "F"
+    print(f"Your grade is {grade}")
 
-score = int(input("Enter your score (0-100):"))
-1 if score >= 95:
-2 grade = "A+"
-3 elif score >= 90:
-grade = "A"
-elif score >= 80:
-grade = "B"
-elif score >= 70:
-grade = "C"
-else:
-grade = "F"
-print(f"Your grade is {grade}")
+        3 lines cahanged
 
-    3 lines cahanged
-
-3. Is the logic testable? Could I write a function that takes a score and returns a grade, then test it separately?
-   yes this logic is testable.
+3.  Is the logic testable? Could I write a function that takes a score and returns a grade, then test it separately?
+    yes this logic is testable. only if i personally try out possibilities . i havent learnt any self testing methods of code. however u could write a function separatly and test it surely.
 
 - [x] SoloLearn Feynman Practice (1 Q&A answer).
 
@@ -88,10 +88,11 @@ if __name__ == "__main__":
 
 ## 3. FIX THIS ANALYSIS
 
+```python
+
 def main():
 password = input("Enter password: ")
-if password == "secret":
-
+    if password == "secret":
         print("Access granted.")
     else:
         print("Access denied.")
@@ -106,6 +107,8 @@ if password == "secret":
 
 if **name** == "**main**":
 main()
+
+```
 
 **Bug 1:**
 
@@ -140,11 +143,11 @@ def main():
 
 # default user name and password
     name = "admin"
-    password = 1234
+    password = "1234"
 # user name and password
 
     user_name = input("Enter User Name ")
-    user_password = int(input("Enter Password "))
+    user_password = input("Enter Password ")
 #conditions for user approval to login only if anme and password are both correct
     if user_name == name  and user_password == password:
         print("Login successful")
@@ -181,7 +184,7 @@ _(Record the results of deliberately breaking `day2.py`)_
 
 - **Test 3:** Enter `abc` for temperature.
   - Observed behavior: [
-    it threw a ValueError: invalid literal for int() with base 10: 'abc'
+    ValueError: invalid literal for int() with base 10: 'abc'
     ]
   - Analysis: [this is not acceptable because it an crash the entire program . ]
     this can be solved by putting constraints to only allow input as a Number.
