@@ -189,11 +189,6 @@ _(Record the results of deliberately breaking `day2.py`)_
   - Analysis: [this is not acceptable because it an crash the entire program . ]
     this can be solved by putting constraints to only allow input as a Number.
 
-## 6. SOLOLEARN EVIDENCE
-
-- Question Link: [Insert Link]
-- Answer: [Paste your Feynman-style answer here]
-
 ## 7. DECLARATION
 
 I declare all work is my own. I have not copy-pasted. I have not used AI without citation.
