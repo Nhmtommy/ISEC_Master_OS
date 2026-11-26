@@ -22,9 +22,7 @@ def main():
         if entered_pin !=correct_pin:
             print("Incorrect. Try again. ")
     print("Access Granted")
-
-    for i in range(0):
-        print("Hello World")
+    
 
 if __name__ == "__main__":
     main()

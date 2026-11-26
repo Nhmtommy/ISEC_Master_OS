@@ -7,8 +7,47 @@
 - [x] Edge cases recorded.
 - [x] Engineering Thinking answers (3 questions).
 - [x] Design Reflection answers (3 questions).
+      for question 2.
+
+```python
+def main():
+    #1. basic for loop
+    print("---Countdown---")
+    for i in range (5, 0, -1): #Start at 5, stop before 0, step -1
+        print(i)
+    print("Liftoff")
+
+    #2. Loop over a list
+    print("\n--- Names ---")
+    names = [ "Alice", "Bob", "Charlie" ]
+    for name in names:
+        print(f"Hello, {name} " )
+
+    #3. WHile loop with input validation
+    print("\n---Security Check ---")
+    correct_pin = "1234"
+    entered_pin = ""
+    counter = 0
+    #keep looping as long as the pin is wrong
+    while entered_pin != correct_pin:
+        entered_pin = input("Enter Your PIN :")
+        if entered_pin !=correct_pin and counter <= 3:
+            print("Incorrect. Try again. ")
+            counter += 1
+        else:
+            print("Access denied")
+    print("Access Granted")
+4 lines Changed to limit attempts.
+
+if __name__ == "__main__":
+    main()
+
+
+
+
 - [x] SoloLearn Feynman Practice (1 Q&A answer).
       IN BIG BOOK ATTACHED Day3.pdf
+```
 
 ## 2. HANDS-ON CODE
 
