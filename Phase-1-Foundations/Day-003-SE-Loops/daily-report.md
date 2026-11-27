@@ -179,7 +179,8 @@ _(Record the results of deliberately breaking `day3.py`)_
 
 - Question Link: [https://www.sololearn.com/Discuss/3374244/?ref=app]
   " ppl, I've learned html and css completely but whenever I try to code my head gets empty, i have no idea what to code, i get overwhelmed with so many tags I've learned but i don't know where to use them"
-- Answer: [Blank head is not because u don't know HTML. it's because u think about all tags at once, for a simple practice u only need a few tags. And don't try to force perfection, it results to analysis paralysis making you forget or loss your decision ability. You now know what to build, just get started although it might seem ugly. <h1> <div> <p> <input> <button> are enough for start.
+- Answer: [Blank head is not because u don't know HTML. it's because u think about all tags at once, for a simple practice u only need a few tags. And don't try to force perfection, it results to analysis paralysis making you forget or loss your decision ability. You now know what to build, just get started although it might seem ugly. "<h1> <div> <p> <input> <button>" are enough for start.
+
   ]
 
 ## 7. DECLARATION
