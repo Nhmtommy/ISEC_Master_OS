@@ -42,7 +42,7 @@ def main():
     greet("Nahum")
 
     #Bug 3: Wrong number of argumnts (Fixed)
-    add_numbers(10)
+    add_numbers(10, 5)
 
 if __name__ == "__main__":
     main()
